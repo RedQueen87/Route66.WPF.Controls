@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route66.WPF.Controls", "Route66.WPF.Controls\Route66.WPF.Controls.csproj", "{71EC836C-C909-4AC4-B63F-69FDFA610FD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route66.WPF.Controls.Test", "Route66.WPF.Controls.Test\Route66.WPF.Controls.Test.csproj", "{6503DD6F-AC34-47C8-BB7D-E2960FB64636}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{71EC836C-C909-4AC4-B63F-69FDFA610FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71EC836C-C909-4AC4-B63F-69FDFA610FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EC836C-C909-4AC4-B63F-69FDFA610FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6503DD6F-AC34-47C8-BB7D-E2960FB64636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6503DD6F-AC34-47C8-BB7D-E2960FB64636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6503DD6F-AC34-47C8-BB7D-E2960FB64636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6503DD6F-AC34-47C8-BB7D-E2960FB64636}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

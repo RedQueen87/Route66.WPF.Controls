@@ -8,8 +8,8 @@ using System.Windows.Media;
 namespace Route66.WPF.Controls.WrapGrid;
 
 public partial class WrapGridPanel : Panel {
-    private static readonly Pen yellowPen = new Pen(Brushes.Yellow, 1);
-    private static readonly Pen bluePen = new Pen(Brushes.Blue, 1) {
+    private static readonly Pen yellowPen = new(Brushes.Yellow, 1);
+    private static readonly Pen bluePen = new(Brushes.Blue, 1) {
         DashStyle = new DashStyle(new double[] { 6, 6 }, 0)
     };
     private readonly IList<double> columnOffsets = new List<double>();
